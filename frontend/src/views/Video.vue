@@ -35,7 +35,7 @@
 import axios from 'axios'
 import '../components/css/video.css'
 
-const YOUTUBE_KEY = 'AIzaSyAUlX-M22mSuz7gDSE8Lie30uBVH4iQ28A'
+const YOUTUBE_KEY = process.env.VUE_APP_API_KEY_YOUTUBE
 const API_URL = 'https://www.googleapis.com/youtube/v3/search'
 
 export default {
